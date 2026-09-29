@@ -5,7 +5,7 @@
 # Place at .claude/hooks/Stop.sh in your workspace.
 # Reports the assistant's completed turn as a msg_assistant event.
 
-PORT="${DRIVESOID_PORT:-3001}"
+PORT="${DRIVESOID_PORT:-24601}"
 BASE="http://127.0.0.1:${PORT}"
 
 INPUT_FILE=$(mktemp /tmp/drivesoid-stop-XXXXXX.json)

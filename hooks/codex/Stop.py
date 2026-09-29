@@ -5,7 +5,7 @@ import os
 import sys
 import urllib.request
 
-PORT = os.environ.get("DRIVESOID_PORT", "3001")
+PORT = os.environ.get("DRIVESOID_PORT", "24601")
 BASE_URL = f"http://127.0.0.1:{PORT}"
 
 
