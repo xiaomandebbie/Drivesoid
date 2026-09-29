@@ -7,7 +7,7 @@ const { z }  = require('zod');
 const http   = require('http');
 const { version } = require('../package.json');
 
-const PORT    = parseInt(process.env.DRIVESOID_PORT || '3001', 10);
+const PORT    = parseInt(process.env.DRIVESOID_PORT || '24601', 10);
 const TIMEOUT = 5_000;
 
 function request(opts, body) {
